@@ -6,9 +6,19 @@ class Ejercicio1{
     public static void main(String[] args) {
         int int1, int2, int3, int4, int5;
         float float1, float2, float3, float4, float5;
+        String str1, str2, str3, str4, str5;
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Bienvenido al Programa de Tiago - Ejercicio 1");
+
+        System.out.println("Ingrese 5 palabras");
+
+        str1 = sc.nextLine();
+        str2 = sc.nextLine();
+        str3 = sc.nextLine();
+        str4 = sc.nextLine();
+        str5 = sc.nextLine();
 
         System.out.println("Ingrese 5 números enteros");
 
@@ -29,6 +39,14 @@ class Ejercicio1{
         System.out.println("*********************");
         System.out.println("Valores Ingresados");
         System.out.println("*********************");
+
+        System.out.println("1º Palabra Ingresada "+str1);
+        System.out.println("2º Palabra Ingresada "+str2);
+        System.out.println("3º Palabra Ingresada "+str3);
+        System.out.println("4º Palabra Ingresada "+str4);
+        System.out.println("5º Palabra Ingresada "+str5);
+
+        System.out.println("------------------------");
 
         System.out.println("1º Número Entero Ingresado "+int1);
         System.out.println("2º Número Entero Ingresado "+int2);
