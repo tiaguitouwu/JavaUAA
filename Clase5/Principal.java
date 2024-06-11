@@ -58,7 +58,6 @@ public class Principal {
                 break; 
             } catch (InputMismatchException e) {
                 System.out.println("Solo se admiten números!");
-                sc.next(); // Limpiar la entrada incorrecta
             }
         }
         return num;
